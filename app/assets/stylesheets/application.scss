@@ -2,3 +2,25 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 //= require 'flexbox'
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.secondry {
+  width: 35%;
+  text-align: center;
+  margin-top: 200px;
+  background-color: #ff5722;
+  font-family: monospace;
+}
+
+.secondry_2 {
+  width: 65%;
+  background-color: #ff9800;
+}
+
+.izzy_color {
+  color: #ffeb3b;
+}
