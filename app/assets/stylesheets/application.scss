@@ -3,24 +3,47 @@
 @import "bootstrap";
 //= require 'flexbox'
 
-.main {
+
+.static_pages {
+  background-image: url('/assets/izzyb_2.jpg');
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
+.spotify {
+  margin-bottom: 35px;
+}
+
 .secondry {
-  width: 35%;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 220px;
   background-color: #ff5722;
   font-family: monospace;
 }
 
 .secondry_2 {
-  width: 65%;
   background-color: #ff9800;
+  width: 50%;
+  margin-top: 160px;
+  margin-bottom: 35px;
+  font-family: monospace;
+}
+
+.secondry_3 {
+  width: 75%;
+  float: right;
+  background-color: #ffeb3b;
+  margin-top: 160px;
+  margin-bottom: 35px;
+  font-family: monospace;
 }
 
 .izzy_color {
   color: #ffeb3b;
+}
+
+.text {
+  margin-right: 40px;
+  margin-left: 20px;
 }
